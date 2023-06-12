@@ -101,7 +101,7 @@ void setup()
   uint16_t volume = dfmp3.getVolume();
   Serial.print("volume was ");
   Serial.println(volume);
-  dfmp3.setVolume(24);
+  dfmp3.setVolume(20);
   volume = dfmp3.getVolume();
   Serial.print(" and changed to  ");
   Serial.println(volume);
